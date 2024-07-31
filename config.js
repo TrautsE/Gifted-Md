@@ -7,20 +7,20 @@ global.audio = "";
 global.video = "https://telegra.ph/file/204481823350f368c1826.mp4";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "giftedmd@giftedtechnexus.co.ke";
-global.location = "Eldoret,Kenya";
+global.email = "kalulestuart28@gmail.com";
+global.location = "Kampala,Uganda";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://wasitech10:WASImd##12@cluster0.eclhxiz.mongodb.net/?retryWrites=true&w=majority";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
 global.github = process.env.GITHUB || "https://github.com/mouricedevs/Gifted-Md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaD3dBZGzzKVBi9ULs44";
+global.website = process.env.GURL || ""
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://f.uguu.se/OBFbyitz.jpg";
 global.devs = "254762016957,254110853827,254728746852,255655147353,254728782591";
 global.sudo = process.env.SUDO || "254762016957,254110853827,254728746852,255655147353,254728782591";
-global.owner = process.env.OWNER_NUMBER || "254762016957,254110853827,254728746852,255655147353,254728782591";
+global.owner = process.env.OWNER_NUMBER || "256789440803";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -43,15 +43,15 @@ global.scan = "https://web.giftedtechnexus.co.ke";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "Gifted~NKc4aEXE"
 module.exports = {
   menu: process.env.MENU || "2", /*Leave it in Default else bot will Crash*/
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "3.0.0",
   caption: process.env.CAPTION || "*ɢɪғᴛᴇᴅ-ᴍᴅ ᴠᴇʀsɪᴏɴ 3.0.0*",
-  author: process.env.PACK_AUTHER || "Gifted Tech",
-  packname: process.env.PACK_NAME || "Gifted-Md♥️",
+  author: process.env.PACK_AUTHER || "trauts elulak",
+  packname: process.env.PACK_NAME || "Trauts-Md♥️",
   botname: process.env.BOT_NAME || "ɢɪғᴛᴇᴅ-ᴍᴅ",
   ownername: process.env.OWNER_NAME || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
   errorChat: process.env.ERROR_CHAT || "",
